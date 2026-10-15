@@ -9,7 +9,7 @@ hosted on GitHub Pages.
 ## Files
 
 - `index.html` — page content: book, author bio, reading list, newsletter/contact
-- `styles.css` — all styling (warm linen / mocha / lilac palette, Fraunces + Source Serif)
+- `styles.css` — all styling (warm linen / mocha palette with a pale lavender blend, Fraunces + Source Serif)
 - `script.js` — reading-list rendering, mobile nav, newsletter form demo
 
 ## To finish before launch
