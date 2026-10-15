@@ -8,7 +8,7 @@ hosted on GitHub Pages.
 
 ## Files
 
-- `index.html` — page content: book, praise, author bio, reading list, newsletter/contact
+- `index.html` — page content: book, author bio, reading list, newsletter/contact
 - `styles.css` — all styling (warm linen / mocha / lilac palette, Fraunces + Source Serif)
 - `script.js` — reading-list rendering, mobile nav, newsletter form demo
 

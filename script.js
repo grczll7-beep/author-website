@@ -1,11 +1,11 @@
-// Reading list — from Grace's curated shelf in her original site
+// A Few of My Favorites — Grace's picks
 const READS = [
-  { title: 'Demon Copperhead', author: 'Barbara Kingsolver', year: '2022', color: '#826455', note: 'For the way it makes you ache for a place and a person at once.' },
-  { title: 'Tomorrow, and Tomorrow, and Tomorrow', author: 'Gabrielle Zevin', year: '2022', color: '#8D8294', note: 'On creativity, collaboration, and all the ways we fail each other.' },
-  { title: 'The Midnight Library', author: 'Matt Haig', year: '2020', color: '#6F6D62', note: 'A gentle novel about the unlived life and the one worth choosing.' },
-  { title: 'Piranesi', author: 'Susanna Clarke', year: '2020', color: '#695F6D', note: 'Strange and beautiful. A labyrinth you’ll want to stay lost in.' },
-  { title: 'A Gentleman in Moscow', author: 'Amor Towles', year: '2016', color: '#9A7565', note: 'For readers who believe that a good room can be a whole world.' },
-  { title: 'Housekeeping', author: 'Marilynne Robinson', year: '1980', color: '#4E403A', note: 'The book I return to whenever I need to remember why sentences matter.' },
+  { title: 'Little Women', author: 'Louisa May Alcott', year: '1868', color: '#826455', note: 'The March sisters — Meg, Jo, Beth, and Amy — growing up in Civil War-era New England.' },
+  { title: 'The Night Circus', author: 'Erin Morgenstern', year: '2011', color: '#33313B', note: 'A wandering magical circus that only opens at night, and the duel — and love story — behind it.' },
+  { title: 'Garden Spells', author: 'Sarah Addison Allen', year: '2007', color: '#6F7D5C', note: 'Two estranged sisters, an enchanted apple tree, and a little magic in a Southern town.' },
+  { title: 'The Penderwicks', author: 'Jeanne Birdsall', year: '2005', color: '#9A7565', note: 'Four sisters, one summer vacation, and all the adventures that find them.' },
+  { title: 'The Shadow of the Wind', author: 'Carlos Ruiz Zafón', year: '2001', color: '#695F6D', note: 'A boy, a mysterious book, and literary Barcelona after the Spanish Civil War.' },
+  { title: 'Anna Karenina', author: 'Leo Tolstoy', year: '1878', color: '#7A2E2E', note: 'A sweeping story of love, family, and society in Imperial Russia.' },
 ];
 
 const grid = document.getElementById('readsGrid');

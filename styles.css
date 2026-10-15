@@ -41,9 +41,6 @@ main{padding-top:56px} .container{max-width:1040px;margin:0 auto} .container.nar
 .buy-links a{padding:.45rem 1rem;border:1px solid var(--border);font-size:.8rem;color:var(--foreground);text-decoration:none;border-radius:2px}
 .buy-links a:hover{background:var(--primary);color:var(--primary-foreground)}
 .buy-note{font-size:.75rem;color:var(--muted-foreground);font-style:italic}
-.praise{margin-top:2rem;display:grid;gap:1.25rem}
-.praise blockquote{margin:0;border-left:3px solid var(--accent);padding-left:1rem}
-.praise p{font-style:italic;margin:0 0 .25rem} .praise footer{font-size:.85rem;color:var(--muted-foreground)}
 /* Author */
 .author-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(3rem,6vw,5rem);align-items:center}
 .author-photo{max-width:340px;aspect-ratio:3/4;border-radius:3px;background:var(--muted);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;color:var(--muted-foreground)}
