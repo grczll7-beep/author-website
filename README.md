@@ -16,7 +16,7 @@ hosted on GitHub Pages.
 
 1. Replace the `#` buy links in `index.html` with real Bookshop.org / IndieBound / Amazon URLs.
 2. Replace the `#` Instagram / Goodreads links with real profile URLs.
-3. Add an author photo (replace the "GN" placeholder in the Author section) and, if you have one, a real book-cover image.
+3. Add a real book-cover image, if you have one. (Author photo added 2026-10-15: author-photo.svg (JPEG embedded in an SVG wrapper so it can be pushed through the GitHub API), cropped from a photo Grace supplied.)
 4. Connect the newsletter form to a real service (Mailchimp, Buttondown, Substack, etc.) — right now it only shows a thank-you message and does not save emails.
 
 ## Hosting on GitHub Pages
