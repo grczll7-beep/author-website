@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=8" />
+  <link rel="stylesheet" href="styles.css?v=9" />
 </head>
 <body>
   <header class="nav">
@@ -91,9 +91,11 @@
     <!-- READING LIST -->
     <section id="reading-list" class="section">
       <div class="container">
+       <div class="shelf-panel">
         <div class="center-head">
           <p class="eyebrow">A Curated Shelf</p>
           <h2 class="section-title">A Few of My Favorites</h2>
+          <div class="shelf-ornament" aria-hidden="true"><span></span>✦<span></span></div>
         </div>
         <div class="reads-grid" id="readsGrid">
           <article class="read-card" style="border-left-color:#826455"><h3>Little Women</h3><p class="meta">Louisa May Alcott · 1868</p><p class="note">The March sisters — Meg, Jo, Beth, and Amy — growing up in Civil War-era New England.</p></article>
@@ -103,6 +105,8 @@
           <article class="read-card" style="border-left-color:#695F6D"><h3>The Shadow of the Wind</h3><p class="meta">Carlos Ruiz Zafón · 2001</p><p class="note">A boy, a mysterious book, and literary Barcelona after the Spanish Civil War.</p></article>
           <article class="read-card" style="border-left-color:#7A2E2E"><h3>Anna Karenina</h3><p class="meta">Leo Tolstoy · 1878</p><p class="note">A sweeping story of love, family, and society in Imperial Russia.</p></article>
         </div>
+        <div class="reads-shelf" aria-hidden="true"></div>
+       </div>
       </div>
     </section>
 
@@ -134,6 +138,6 @@
     <p class="footer-copy">© 2024 Grace Naumann. All rights reserved.</p>
   </footer>
 
-  <script src="script.js?v=8"></script>
+  <script src="script.js?v=9"></script>
 </body>
 </html>
