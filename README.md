@@ -1,14 +1,14 @@
 # Grace Naumann — Author Website
 
-A clean, static author website for Grace Naumann and her debut novel
-*The Next Chapter Bookstore* (Wren & Thistle Press, 2024).
+A clean, static author website for Grace Naumann and her novel
+*The Next Chapter Bookstore*.
 
 No build step required — plain HTML, CSS, and JavaScript, designed to be
 hosted on GitHub Pages.
 
 ## Files
 
-- `index.html` — page content: hero, book, praise, author bio, reading list, newsletter/contact
+- `index.html` — page content: book, praise, author bio, reading list, newsletter/contact
 - `styles.css` — all styling (warm linen / mocha / lilac palette, Fraunces + Source Serif)
 - `script.js` — reading-list rendering, mobile nav, newsletter form demo
 
