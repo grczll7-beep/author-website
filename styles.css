@@ -42,6 +42,18 @@ main{padding-top:56px} .container{max-width:1040px;margin:0 auto} .container.nar
 .buy-links a{padding:.45rem 1rem;border:1px solid var(--border);font-size:.8rem;color:var(--foreground);text-decoration:none;border-radius:2px}
 .buy-links a:hover{background:var(--lavender-deep);color:#FFF8EC;border-color:var(--lavender-deep)}
 .buy-note{font-size:.75rem;color:var(--muted-foreground);font-style:italic}
+
+/* Bookplate panel (Book section) */
+.book-panel{position:relative;background:linear-gradient(150deg,#F5F0F9 0%,var(--lavender-pale) 46%,#EAE0CE 100%);border:1px solid #B9A8CC;border-radius:6px;padding:clamp(2rem,5vw,3.5rem);box-shadow:0 24px 55px rgba(95,66,48,.14),inset 0 0 0 6px rgba(255,252,246,.55),inset 0 0 0 7px rgba(185,168,204,.55);overflow:hidden}
+.book-panel:before{content:'';position:absolute;inset:13px;border:1px solid rgba(94,75,122,.35);border-radius:3px;pointer-events:none}
+.book-panel:after{content:'&';position:absolute;right:-1.5rem;top:-5.5rem;font-family:var(--font-display);font-style:italic;font-size:15rem;line-height:1;color:rgba(94,75,122,.08);pointer-events:none}
+.book-panel .book-grid{position:relative;z-index:1}
+.cover-wrap{position:relative}
+.cover-wrap:before{content:'';position:absolute;width:330px;height:330px;max-width:90vw;border-radius:50%;background:radial-gradient(circle,rgba(255,199,110,.5),rgba(220,211,230,.4) 55%,transparent 70%);top:-45px;left:50%;transform:translateX(-50%);filter:blur(8px);z-index:0;pointer-events:none}
+.cover-wrap .cover{box-shadow:-6px 6px 0 rgba(0,0,0,.2),10px 18px 38px rgba(60,35,50,.35)}
+.cover-shelf{width:min(320px,88%);height:12px;margin-top:1.6rem;background:linear-gradient(180deg,#8A6642,#5F4230);border-radius:2px;box-shadow:0 12px 20px rgba(60,35,20,.3);position:relative;z-index:1}
+.buy-links,.buy-note{position:relative;z-index:1}
+@media (max-width:767px){.book-panel{padding:2rem 1.25rem}.book-panel:before{inset:9px}}
 /* Author */
 .author-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:clamp(3rem,6vw,5rem);align-items:center}
 .author-photo{max-width:340px;aspect-ratio:3/4;border-radius:3px;background:var(--muted);overflow:hidden}
